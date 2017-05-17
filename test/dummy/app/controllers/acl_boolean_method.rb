@@ -6,7 +6,7 @@ class ACLBooleanMethod < EmptyController
     allow all,                         :unless => :true_meth
   end
 
-  before_filter :check_acl
+  before_action :check_acl
 
   def check_acl
     if self.acl

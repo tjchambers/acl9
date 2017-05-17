@@ -1,6 +1,6 @@
 class ACLIvars < EmptyController
 
-  before_filter :set_ivars
+  before_action :set_ivars
 
   access_control do
     action :destroy do
