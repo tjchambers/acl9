@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
 
   s.rdoc_options      = ["--charset=UTF-8"]
 
-  s.add_dependency "rails", '> 4.0', '< 5.2'
+  s.add_dependency "rails", '> 4.0', '< 5.3'
 
   s.add_development_dependency "codeclimate-test-reporter"
   s.add_development_dependency "yard"
